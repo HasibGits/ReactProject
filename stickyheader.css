@@ -1,0 +1,15 @@
+.sticky-header {
+  position: sticky;
+  top: 0;
+  background-color: #333;
+  color: white;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  z-index: 1000;
+}
+.sticky-header nav a {
+  margin: 0 10px;
+  color: white;
+  text-decoration: none;
+}
